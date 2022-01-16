@@ -3,6 +3,14 @@
     padding: 10px;
     box-sizing: border-box ;
 }
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-thumb{
+        background: #70a2c4be;
+        border-radius: 5rem;
+}
 .padre{
     display:flex ;
     flex-flow: column nowrap;
@@ -76,7 +84,7 @@
 }
  
 
-@media all and (max-width : 800px){
+@media all and (max-width : 900px){
     .section{
         flex-direction: column ;
     }
