@@ -54,15 +54,17 @@ html::-webkit-scrollbar-thumb{
 
 .grid-container{
     display: grid;
-    background-color:  cornsilk;
+    background-color:  none;
     grid-template-columns: auto auto auto auto;
+    
 }
 
 .grid-container div{
-    background-color: crimson;
+    background-color: rgb(255, 240, 213);
     text-align: center;
-    color: white;
-    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+    
 }
 
 

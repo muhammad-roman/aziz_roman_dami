@@ -67,6 +67,7 @@ html::-webkit-scrollbar-thumb{
         .article{
             background: rgb(255, 240, 213);
             flex: 1 1 40%;
+            border-radius: 20px;
         }
     
     .aside{
@@ -75,6 +76,7 @@ html::-webkit-scrollbar-thumb{
     }
       .publicidad{
           background: rgb(231, 231, 231);
+          border-radius: 20px;
       }
 .footer{
     display: block;
