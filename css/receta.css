@@ -24,26 +24,37 @@ html::-webkit-scrollbar-thumb{
     
 }
 .container {
-    padding: 0.7rem 30%;
+    padding: 0.7rem 20%;
     width: 100%;
-    height: 60px;
-    background: #70a3c4;
+    height: 50px;
+    background: #70a2c4;
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    padding: 0 5rem;
+    
     box-sizing: border-box;
     position: sticky;
     top: 0;
 }
-.item-options{
-    color: aliceblue;
-    margin: 0 1.5rem;
-    text-decoration: none;
-    font-size:large;
+nav{
+    position: absolute;
+    
 }
-.item-options:hover{
+nav ul li {
+    display: inline-block;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    background: #70a2c4;
+    font-weight: bold;
+    
+   
+}
+nav ul li a:hover{
     background: rgb(0, 164, 240);
     color: white;
     border-bottom: .1rem solid var (--main black);
@@ -78,6 +89,11 @@ html::-webkit-scrollbar-thumb{
           background: rgb(231, 231, 231);
           border-radius: 20px;
       }
+      p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
 .footer{
     display: block;
     line-height: 40px;
