@@ -91,7 +91,7 @@ nav ul li a:hover{
           border-radius: 20px;
       }
 
-a{
+.nombre{
     text-decoration: none;
     color: black;
     font-weight: bolder;
